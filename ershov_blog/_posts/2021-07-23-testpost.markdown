@@ -1,0 +1,6 @@
+---
+layout: panelPage
+title: test panels
+words: Novosibirsk State University
+slava: Новосибирский государственный 
+---
