@@ -1,8 +1,8 @@
 ---
 layout: homepage
 title: test homepage
-tlurl: google.com
-biourl: google.com
-abturl: google.com
-worksurl: posts
+tlurl: timeline.html
+biourl: bio.html
+abturl: about.html
+worksurl: works.html
 ---

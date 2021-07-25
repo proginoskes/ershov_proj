@@ -1,32 +1,31 @@
 // add panels.scss by proginoskes
 .lpan{
-	float: left;
+  float: left;
 }
 
 .rpan{
-	float: right;
+  float: right;
 }
 
 .halfpanel{
-	width: 30%;
+  width: 30%;
 }
 
 .horizmenu{
-	list-style-type: none; 
-	margin: 0;
-	padding: 0;
-      	float: center;
-        li{
-		display: inline;
-      	}
-        a{
-		display: block;
-	        padding: 5px;
-	    	background-color: #facade;
-		:hover{
-			background-color: #ffffff;
-	       	}
-	     }
-     	}     
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: center;
+  li{
+    display: inline;
+  }
+}
 
-
+.btn {
+    display: block;
+    padding: 5px;
+    background-color: #facade;
+    :hover{
+       background-color: #ffffff;
+    }
+}
