@@ -3,8 +3,9 @@ layout: default
 ---
 
 {%-include back_link.html-%}
+{% assign docu = site.data.documents[page.docname] %}
 
 <h1>{{ page.title }}</h1>
 
-    <div class="lpan halfpanel">{{ page.words }}</div>
-    <div class="rpan halfpanel">{{ page.slava }}</div>
+    <div class="lpan halfpanel">{{ docu.text-en }}</div>
+    <div class="rpan halfpanel">{{ docu.text-ru }}</div>
