@@ -1,5 +1,6 @@
 ---
 layout: default
+custom_js: script-1
 ---
 
 {%-include back_link.html-%}
@@ -7,5 +8,15 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-    <div class="lpan halfpanel">{{ docu.text-en }}</div>
-    <div class="rpan halfpanel">{{ docu.text-ru }}</div>
+    	<div class="lpan halfpanel" >
+    	    	{% for n in (1..6) %}
+		<p id="{{n}}" onmouseover="highLite({{n}})">{{ docu.text-en[n] }}</p>
+            	{% endfor %}
+    	</div>
+	<div class="rpan halfpanel"> 
+    	    	{% for n in (1..6) %}
+		<p id="{{n}}" onmouseover="highLite({{n}})">{{ docu.text-ru[n] }}</p>
+            	{% endfor %}
+    	</div>
+
+
