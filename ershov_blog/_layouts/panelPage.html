@@ -7,16 +7,15 @@ custom_js: script-1
 {% assign docu = site.data.documents[page.docname] %}
 
 <h1>{{ page.title }}</h1>
-
-    	<div class="lpan halfpanel" >
+	
+	<table>
     	    	{% for n in (1..6) %}
-		<p id="{{n}}" onmouseover="highLite({{n}})">{{ docu.text-en[n] }}</p>
+		<tr class="hilite">
+			<td>{{ docu.text-en[n] }}</td>
+			<td>{{ docu.text-ru[n] }}</td>
+		</tr>
             	{% endfor %}
-    	</div>
-	<div class="rpan halfpanel"> 
-    	    	{% for n in (1..6) %}
-		<p id="{{n}}" onmouseover="highLite({{n}})">{{ docu.text-ru[n] }}</p>
-            	{% endfor %}
-    	</div>
+	<table>
+	
 
 

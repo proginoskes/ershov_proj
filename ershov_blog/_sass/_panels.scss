@@ -1,4 +1,17 @@
 // add panels.scss by proginoskes
+
+// variables
+$hlcolor: yellow;
+
+
+//mixins and keyframes
+
+@keyframes changebkg {
+	0%   {background-color: white;}
+	100% {background-color: $hlcolor;}
+}
+
+//classes
 .lpan{
   float: left;
 }
@@ -26,11 +39,21 @@
   }
 }
 
+.hilite{
+  &:hover{
+	  animation-name: changebkg;
+	  animation-duration: 0.2s;
+  }
+}
+
 .btn {
     display: block;
     padding: 5px;
     background-color: #facade;
-    :hover{
+    &:hover{
        background-color: #ffffff;
     }
 }
+
+
+
