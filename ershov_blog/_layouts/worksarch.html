@@ -2,11 +2,9 @@
 layout: default
 ---
 
-<h1>{{ site.title }}</h1>
-    <ul class="horizmenu">
-        <li class="btn tl" href={{ page.tlurl }}><a class="btntext" href={{ page.tlurl }}>timeline</a></li>
-        <li class="btn bio" href={{ page.biourl }}><a class="btntext" href={{ page.tlurl }}>biography</a></li>
-        <li class="btn abt" href={{ page.abturl }}><a class="btntext" href={{ page.tlurl }}>about</a></li>
-        <li class="btn works" href={{ page.worksurl }}><a class="btntext" href={{ page.tlurl }}>works</a></li>
-    </ul>
-    
+<h1>{{ "all works" }}</h1>
+<p> This page lists all works translated between Russian and English.</p>
+
+{% for work in site.works %}
+	<p>{{ work.url}}</p>
+{% endfor %}

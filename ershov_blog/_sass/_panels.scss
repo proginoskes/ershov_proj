@@ -1,13 +1,14 @@
 // add panels.scss by proginoskes
 
 // variables
+$backgrnd: white;
 $hlcolor: yellow;
 
 
 //mixins and keyframes
 
 @keyframes changebkg {
-	0%   {background-color: white;}
+	0%   {background-color: $backgrnd;}
 	100% {background-color: $hlcolor;}
 }
 
@@ -41,13 +42,16 @@ $hlcolor: yellow;
 
 .hilite{
   &:hover{
+	  background-color: $hlcolor;
 	  animation-name: changebkg;
-	  animation-duration: 0.2s;
+	  animation-duration: 1s;
   }
 }
 
 .btn {
     display: block;
+    margin: 1px;
+    float: right;
     padding: 5px;
     background-color: #facade;
     &:hover{
