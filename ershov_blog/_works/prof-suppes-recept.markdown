@@ -1,8 +1,8 @@
 ---
 title: Report on the reception of Prof. P. Suppes at the Computing Center
 layout: panelPage
-nextpage: works/799176
+nextpage: works/prof-suppes-recept-p2
 startidx: 1
 endidx: 5
-docname: 799176
+docname: 784135  
 ---
