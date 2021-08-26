@@ -6,5 +6,5 @@ layout: default
 <p> This page lists all works translated between Russian and English.</p>
 
 {% for work in site.works %}
-	<p>{{ work.url}}</p>
+	<p><a href="{{work.url}}">{{ work.title }}</a></p>
 {% endfor %}

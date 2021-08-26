@@ -34,6 +34,15 @@ theme: no-style-please
 plugins:
   - jekyll-feed
 
+# mkoucky1 personal configs
+collections:
+        works: 
+                output: true
+                permalink: /works/:name
+        works-subpgs:
+                output: true
+                permalink: /works/:name
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
