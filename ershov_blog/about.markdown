@@ -1,18 +1,11 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: post
+title: About this Project
+date: 2021-08-27
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I began studying Russian in January 2021. I took an introductory intensive course at Swarthmore College, in which I was taught the basic grammatical and phonological-orthological principles of the language. I continued to study independently throughout the school year, using Duolingo and watching Russian TV shows. I once worked with a linguist who, after giving me a copy of Ranciere's "The Ignorant Schoolmaster", told me that the only thing you need to learn a language is a translated text. That is to say, you need the text in a language you know, and the same text in the language you are trying to learn. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I am interested in how computer science, as a discipline, developed (and is developing) in different geopolitical contexts. I was drawn to Andrey Ershov in part because of the time in which he lived, 1931-1988. He was born and died in the Soviet Union, and his work continued to have an optimistic outlook on his country and the prospects for a global intellectual community for as long as he lived. His intellectual career began in the 1950s, as Cybernetics - previously banned as a product of Western military intelligence - was becoming a primary framework for Soviet academic work. Cybernetics, formalized by Norman Weiner in his 1948 book of the same name, rests on a notion of *feedback* - both consciously and non-consciously acquired - as a primary driver both of cognitive, physical, and biological processes. It is from here that Weiner outlines the unity of "control and communication" as a means of understanding feedback's effect on the world, as it is a representation of both. Historian Slava Gerovich alleges, as might be predicted from the arcane description given of cybernetics, that "cybernetics" became a floating signifier. That is, the term "cybernetics" became such a popular term in the Soviet academic community, that its use alone was often more impactful than its actual definition - a definition which rarely could be agreed upon between academics. Biographer [Gregory Afinogenov](https://www.thefreelibrary.com/Andrei+Ershov+and+the+Soviet+information+age-a0341687618) points to two emerging camps, one which emphasized humanistic implications of cybernetic theory and one which strictly divided these from its technical implications. Ershov maintained the prior stance, committing his life both to technical understandingwhile retaining the significance of humanity's political role in technical processes.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+This is where my fascination begins. I see Ershov as representing a jumping-off point for technical and academic work today. Deep technical knowledge did not produce in Ershov a lesser recognition of the human spirit. Instead, Ershov engaged in the creation of technological discourses that emphasize the social role of technolgy. Many of his later work involved increasing computer literacy throughout the Soviet Union - he hosted a television show to introduce children to the concepts of informatics, developed curricula for the implementation of universal computer science classes, and spoke internationally on the need for programmers to view their knowledge, skills, and work as a humanistic endeavor, rather than a purely technical process. I hope that this site, when finished, will serve as a testament to the spirit of international collaboration, humanism, and collective power, and optimism represented by the work and life of Andrey Ershov.
