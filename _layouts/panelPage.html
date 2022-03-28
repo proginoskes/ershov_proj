@@ -10,6 +10,12 @@ custom_js: script-1
 	
 {%-include next_button.html-%}
 
+<p>{{ docu.description }}</p>
+<p>Date: {{ docu.date }}</p>
+<p>Document number: {{ docu.num }}</p>
+<p>Link to archive: <a href="{{ docu.link }}">x</a></p>
+
+
 	<table>
     	    	{% for n in (page.startidx..page.endidx) %}
 		<tr class="hilite">
